@@ -1,0 +1,10 @@
+<title> IPI 2 Ano </title>
+<p>A pagina começa pelo formulario html</p>
+
+Integrantes{
+	Kauã Gabriel Pereira Soares = "2º B";
+	Paulo Vitor = "2º A";
+	Gilnerio Gomes = "2º A";
+}
+
+<p>agradeço a utilização de nosso sistema, tenha um bom dia :)</p>

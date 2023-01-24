@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>FORMULARIO</title>
+      <style>
+            body {
+                  background-color: black;
+            }
+            p, h1, h2{
+                  color: white;
+            }
+            #titulo{
+                  width: 410px;
+                  margin-left: auto;
+                  margin-right: auto; 
+            }
+            #fild{
+                  width: 410px;
+                  margin-left: auto;
+                  margin-right: auto;
+            }
+            #campesquerda{
+                  position: relative;
+                  left: 40px;
+            }
+            a{
+                  text-decoration: none;
+                  color: white;
+            }
+      </style>
+      
+</head>
+<body>
+      <table border = solid gray><td><a href='negociodoPP.php' text-decoratio: none>Listagem de Produtos</a></td></table>
+      <h1 id="titulo">Inserção de Produto</h1>
+      <fieldset id="fild"><legend><p style = "font-size: 30px">Formulario</p></legend>
+            <form action="formulario.php" method="post">
+                  <table>
+                        <tr>
+                              <td>
+                              	<div>
+                              	    <p>Nome produto: </p><input name="nome_produto"  type="texte">
+                              	</div>
+                              </td>
+                              <td>
+                              	<div id="campesquerda">
+                              	    <p>Data produto: </p><input name="data_produto"  type="texte">
+                              	</div>
+                              </td>
+                        </tr>
+                        <tr>  
+                              <td>
+                              	<div >
+                              	    <p>Preço produto: </p><input name="preco_produto"  type="number" step="0.1" >
+                              	</div>
+                              </td>
+                              <td>
+                              	<div id="campesquerda">
+                              	    <p>Quantidade produto: </p><input name="quantidade_produto"  type="texte">
+                              	</div>
+                              </td>
+                        </tr>
+                        <tr>
+                              <td>
+                              	<div >
+                              	    <p>Tipo de produto: </p><input name="tipo_produto"  type="texte"><br>
+                              	</div><br>
+                              </td>
+                        </tr>
+                  </table>
+              <input type="submit" value="Inserir">
+            </form>
+      </fieldset>
+</body>
+</html>
